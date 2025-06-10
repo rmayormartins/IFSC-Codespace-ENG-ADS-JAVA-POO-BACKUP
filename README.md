@@ -2,7 +2,7 @@
   <tr>
     <td style="border: 1px solid black; padding: 5px;">
       <p style="text-align: center;">Bem vindos ao Repositório</p>
-      <p style="text-align: center;">IFSC-Codespace-ENG-ADS-JAVA-POO</p>
+      <p style="text-align: center;">IFSC-Codespace-ENG-ADS-JAVA-POO-BACKUP</p>
       <p style="text-align: center;"><a href="https://rmayormartins.github.io/" target="_blank">Prof. Dr. Ramon Mayor Martins</a></p>
     </td>
   </tr>
@@ -10,14 +10,17 @@
 
 ---
 
-#### IFSC-Codespace-ENG-ADS-JAVA-POO
+#### IFSC-Codespace-ENG-ADS-JAVA-POO-BACKUP
 
-Bem-vindos ao Repositório [IFSC-Codespace-ENG-ADS-JAVA-POO](https://github.com/rmayormartins/IFSC-Codespace-ENG-ADS-JAVA-POO)
+⚠️ Esse repositório é um backup ao original em caso de erro.
+
+Bem-vindos ao Repositório [IFSC-Codespace-ENG-ADS-JAVA-POO](https://github.com/rmayormartins/IFSC-Codespace-ENG-ADS-JAVA-POO-BAKCUP)
 
 ---
 
 #### Sobre o Repositório
 
+Este repositório é um backup em caso de erro do original.
 Este repositório contém exemplos e projetos desenvolvidos em Java como parte dos cursos Engenharia de Telecomunicações e Análise e Desenvolvimento de Sistemas no [IFSC - Instituto Federal de Santa Catarina](https://www.ifsc.edu.br/).
 
 ---
