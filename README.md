@@ -76,6 +76,76 @@ ou (quando várias classes em arquivos distintos)
 javac *.java
 java HelloWorld
 ```
+---
+#### 🧰🛠️ Ajuste caso necessário
+
+- Atualizar os pacotes
+```bash
+sudo apt update
+#Instalar OpenJDK 17 (versão LTS recomendada)
+sudo apt install openjdk-17-jdk -y
+#Verificar se foi instalado corretamente
+java -version
+javac -version
+echo $JAVA_HOME
+```
+- Em caso de Recuperation mode: Comandos básicos de diagnostico
+```bash
+# Verificar status dos serviços
+sudo systemctl status
+
+# Verificar espaço em disco
+df -h
+
+# Verificar uso de memória
+free -h
+
+# Verificar processos em execução
+ps aux
+
+# Verificar logs do sistema
+sudo journalctl -f
+```
+- Em caso de Recuperation mode: Comandos de recuperação comuns
+```bash
+# Reiniciar serviços do VS Code
+sudo systemctl restart code-server
+
+# Limpar cache do npm (se usando Node.js)
+npm cache clean --force
+
+# Limpar arquivos temporários
+sudo apt clean
+sudo apt autoremove
+
+# Resetar permissões do workspace
+sudo chown -R $(whoami):$(whoami) /workspaces
+
+# Verificar e reparar sistema de arquivos
+sudo fsck -f /dev/sda1
+```
+- Em caso de Recuperation mode: Para problemas específicos
+```bash
+# Ctrl + C para cancelar processo atual
+# Ctrl + Z para suspender processo
+# Ctrl + D para sair do shell atual
+```
+- Em caso de Recuperation mode: Se há problemas de rede
+```bash
+# Testar conectividade
+ping google.com
+
+# Reiniciar serviços de rede
+sudo systemctl restart systemd-networkd
+```
+- Em caso de Recuperation mode: Recovery mode completo
+```bash
+# Modo de emergência - usar apenas se necessário
+sudo systemctl rescue
+
+# Para sair do modo de emergência
+sudo systemctl default
+```
 
 ---
 
